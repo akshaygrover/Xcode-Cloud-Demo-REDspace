@@ -12,6 +12,9 @@
 		87C0417D2759451E004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041552759451A004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift */; };
 		87C0417F2759451E004D1DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041562759451A004D1DD5 /* ContentView.swift */; };
 		87C041812759451E004D1DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C041572759451E004D1DD5 /* Assets.xcassets */; };
+		87C5E999275A95AB000CC377 /* ContentViewUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C5E998275A95AB000CC377 /* ContentViewUnitTests.swift */; };
+		87C5E99C275A96BC000CC377 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 87C5E99B275A96BC000CC377 /* ViewInspector */; settings = {ATTRIBUTES = (Required, ); }; };
+		87C5E99D275A9793000CC377 /* Tests iOS.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 87C041692759451E004D1DD5 /* Tests iOS.xctest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 		87C041692759451E004D1DD5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C0416D2759451E004D1DD5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		87C0416F2759451E004D1DD5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		87C5E998275A95AB000CC377 /* ContentViewUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C5E99C275A96BC000CC377 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 				87C041542759451A004D1DD5 /* Shared */,
 				87C0416C2759451E004D1DD5 /* Tests iOS */,
 				87C0415D2759451E004D1DD5 /* Products */,
+				87C5E995275A945D000CC377 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +91,16 @@
 			children = (
 				87C0416D2759451E004D1DD5 /* Tests_iOS.swift */,
 				87C0416F2759451E004D1DD5 /* Tests_iOSLaunchTests.swift */,
+				87C5E998275A95AB000CC377 /* ContentViewUnitTests.swift */,
 			);
 			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		87C5E995275A945D000CC377 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +119,8 @@
 			dependencies = (
 			);
 			name = "Xcode-Cloud-Demo-REDspace (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "Xcode-Cloud-Demo-REDspace (iOS)";
 			productReference = 87C0415C2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +139,9 @@
 				87C0416B2759451E004D1DD5 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
+			packageProductDependencies = (
+				87C5E99B275A96BC000CC377 /* ViewInspector */,
+			);
 			productName = "Tests iOS";
 			productReference = 87C041692759451E004D1DD5 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -155,6 +174,9 @@
 				Base,
 			);
 			mainGroup = 87C0414F2759451A004D1DD5;
+			packageReferences = (
+				87C5E99A275A96BC000CC377 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			productRefGroup = 87C0415D2759451E004D1DD5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -178,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C5E99D275A9793000CC377 /* Tests iOS.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87C041702759451E004D1DD5 /* Tests_iOSLaunchTests.swift in Sources */,
+				87C5E999275A95AB000CC377 /* ContentViewUnitTests.swift in Sources */,
 				87C0416E2759451E004D1DD5 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +276,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -313,6 +338,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -477,6 +503,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87C5E99A275A96BC000CC377 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87C5E99B275A96BC000CC377 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87C5E99A275A96BC000CC377 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87C041502759451A004D1DD5 /* Project object */;
 }
