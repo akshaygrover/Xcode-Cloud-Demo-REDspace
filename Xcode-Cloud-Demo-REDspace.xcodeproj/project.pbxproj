@@ -9,14 +9,9 @@
 /* Begin PBXBuildFile section */
 		87C0416E2759451E004D1DD5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0416D2759451E004D1DD5 /* Tests_iOS.swift */; };
 		87C041702759451E004D1DD5 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0416F2759451E004D1DD5 /* Tests_iOSLaunchTests.swift */; };
-		87C0417A2759451E004D1DD5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041792759451E004D1DD5 /* Tests_macOS.swift */; };
-		87C0417C2759451E004D1DD5 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C0417B2759451E004D1DD5 /* Tests_macOSLaunchTests.swift */; };
 		87C0417D2759451E004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041552759451A004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift */; };
-		87C0417E2759451E004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041552759451A004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift */; };
 		87C0417F2759451E004D1DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041562759451A004D1DD5 /* ContentView.swift */; };
-		87C041802759451E004D1DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C041562759451A004D1DD5 /* ContentView.swift */; };
 		87C041812759451E004D1DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C041572759451E004D1DD5 /* Assets.xcassets */; };
-		87C041822759451E004D1DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C041572759451E004D1DD5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +22,6 @@
 			remoteGlobalIDString = 87C0415B2759451E004D1DD5;
 			remoteInfo = "Xcode-Cloud-Demo-REDspace (iOS)";
 		};
-		87C041762759451E004D1DD5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 87C041502759451A004D1DD5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 87C041612759451E004D1DD5;
-			remoteInfo = "Xcode-Cloud-Demo-REDspace (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,25 +29,13 @@
 		87C041562759451A004D1DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87C041572759451E004D1DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87C0415C2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode-Cloud-Demo-REDspace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87C041622759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xcode-Cloud-Demo-REDspace.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87C041642759451E004D1DD5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		87C041692759451E004D1DD5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C0416D2759451E004D1DD5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		87C0416F2759451E004D1DD5 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		87C041752759451E004D1DD5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87C041792759451E004D1DD5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		87C0417B2759451E004D1DD5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		87C041592759451E004D1DD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87C0415F2759451E004D1DD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -73,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87C041722759451E004D1DD5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,9 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				87C041542759451A004D1DD5 /* Shared */,
-				87C041632759451E004D1DD5 /* macOS */,
 				87C0416C2759451E004D1DD5 /* Tests iOS */,
-				87C041782759451E004D1DD5 /* Tests macOS */,
 				87C0415D2759451E004D1DD5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,19 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				87C0415C2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */,
-				87C041622759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */,
 				87C041692759451E004D1DD5 /* Tests iOS.xctest */,
-				87C041752759451E004D1DD5 /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		87C041632759451E004D1DD5 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				87C041642759451E004D1DD5 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 		87C0416C2759451E004D1DD5 /* Tests iOS */ = {
@@ -130,15 +87,6 @@
 				87C0416F2759451E004D1DD5 /* Tests_iOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		87C041782759451E004D1DD5 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				87C041792759451E004D1DD5 /* Tests_macOS.swift */,
-				87C0417B2759451E004D1DD5 /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,23 +109,6 @@
 			productReference = 87C0415C2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		87C041612759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87C041882759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Xcode-Cloud-Demo-REDspace (macOS)" */;
-			buildPhases = (
-				87C0415E2759451E004D1DD5 /* Sources */,
-				87C0415F2759451E004D1DD5 /* Frameworks */,
-				87C041602759451E004D1DD5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Xcode-Cloud-Demo-REDspace (macOS)";
-			productName = "Xcode-Cloud-Demo-REDspace (macOS)";
-			productReference = 87C041622759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace.app */;
-			productType = "com.apple.product-type.application";
-		};
 		87C041682759451E004D1DD5 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87C0418B2759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
@@ -196,24 +127,6 @@
 			productReference = 87C041692759451E004D1DD5 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		87C041742759451E004D1DD5 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 87C0418E2759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				87C041712759451E004D1DD5 /* Sources */,
-				87C041722759451E004D1DD5 /* Frameworks */,
-				87C041732759451E004D1DD5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				87C041772759451E004D1DD5 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 87C041752759451E004D1DD5 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,16 +140,9 @@
 					87C0415B2759451E004D1DD5 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					87C041612759451E004D1DD5 = {
-						CreatedOnToolsVersion = 13.1;
-					};
 					87C041682759451E004D1DD5 = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 87C0415B2759451E004D1DD5;
-					};
-					87C041742759451E004D1DD5 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 87C041612759451E004D1DD5;
 					};
 				};
 			};
@@ -254,9 +160,7 @@
 			projectRoot = "";
 			targets = (
 				87C0415B2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace (iOS) */,
-				87C041612759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace (macOS) */,
 				87C041682759451E004D1DD5 /* Tests iOS */,
-				87C041742759451E004D1DD5 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -270,22 +174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87C041602759451E004D1DD5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87C041822759451E004D1DD5 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87C041672759451E004D1DD5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87C041732759451E004D1DD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,30 +193,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87C0415E2759451E004D1DD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87C041802759451E004D1DD5 /* ContentView.swift in Sources */,
-				87C0417E2759451E004D1DD5 /* Xcode_Cloud_Demo_REDspaceApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87C041652759451E004D1DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				87C041702759451E004D1DD5 /* Tests_iOSLaunchTests.swift in Sources */,
 				87C0416E2759451E004D1DD5 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		87C041712759451E004D1DD5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87C0417C2759451E004D1DD5 /* Tests_macOSLaunchTests.swift in Sources */,
-				87C0417A2759451E004D1DD5 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +210,6 @@
 			target = 87C0415B2759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace (iOS) */;
 			targetProxy = 87C0416A2759451E004D1DD5 /* PBXContainerItemProxy */;
 		};
-		87C041772759451E004D1DD5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 87C041612759451E004D1DD5 /* Xcode-Cloud-Demo-REDspace (macOS) */;
-			targetProxy = 87C041762759451E004D1DD5 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -351,6 +217,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -410,6 +278,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -463,14 +333,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QECT94D5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Xcode-Cloud-Demo-REDspace--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchImage;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -493,14 +366,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QECT94D5S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Xcode-Cloud-Demo-REDspace--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchImage;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -516,62 +392,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		87C041892759451E004D1DD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QECT94D5S;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.REDspace.test.Xcode-Cloud-Demo-REDspace";
-				PRODUCT_NAME = "Xcode-Cloud-Demo-REDspace";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		87C0418A2759451E004D1DD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QECT94D5S;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.REDspace.test.Xcode-Cloud-Demo-REDspace";
-				PRODUCT_NAME = "Xcode-Cloud-Demo-REDspace";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -626,56 +446,6 @@
 			};
 			name = Release;
 		};
-		87C0418F2759451E004D1DD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QECT94D5S;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.REDspace.test.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Xcode-Cloud-Demo-REDspace (macOS)";
-			};
-			name = Debug;
-		};
-		87C041902759451E004D1DD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4QECT94D5S;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.REDspace.test.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Xcode-Cloud-Demo-REDspace (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,29 +467,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87C041882759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Xcode-Cloud-Demo-REDspace (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87C041892759451E004D1DD5 /* Debug */,
-				87C0418A2759451E004D1DD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		87C0418B2759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				87C0418C2759451E004D1DD5 /* Debug */,
 				87C0418D2759451E004D1DD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		87C0418E2759451E004D1DD5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87C0418F2759451E004D1DD5 /* Debug */,
-				87C041902759451E004D1DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
